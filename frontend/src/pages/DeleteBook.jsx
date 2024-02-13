@@ -22,7 +22,6 @@ const DeleteBook = () => {
       })
       .catch((error) => {
         setLoading(false);
-        // alert('An error happened. Please Check console');
         enqueueSnackbar("Deletion failed. Please try again later.", {
           variant: "error",
         });
